@@ -1,0 +1,168 @@
+2012/06/18 22:27:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/a2524936/public_html/yii/framework/gii/GiiModule.php:165
+Stack trace:
+#0 /home/a2524936/public_html/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#3 /home/a2524936/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/a2524936/public_html/final/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/index.php?r=gii
+---
+2012/06/18 22:28:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii.".' in /home/a2524936/public_html/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii.')
+#1 /home/a2524936/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/a2524936/public_html/final/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/index.php?r=gii.
+---
+2012/06/18 22:28:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/a2524936/public_html/yii/framework/gii/GiiModule.php:165
+Stack trace:
+#0 /home/a2524936/public_html/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#3 /home/a2524936/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/a2524936/public_html/final/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/index.php?r=gii
+---
+2012/06/18 22:28:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/a2524936/public_html/yii/framework/gii/GiiModule.php:165
+Stack trace:
+#0 /home/a2524936/public_html/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#3 /home/a2524936/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/a2524936/public_html/final/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/index.php?r=gii
+---
+2012/06/18 22:28:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/a2524936/public_html/yii/framework/gii/GiiModule.php:165
+Stack trace:
+#0 /home/a2524936/public_html/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(276): CController->run('')
+#2 /home/a2524936/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#3 /home/a2524936/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/a2524936/public_html/final/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/index.php?r=gii
+---
+2012/06/19 02:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii.".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii.')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/index.php?r=gii.
+---
+2012/06/19 02:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii.".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii.')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/index.php?r=gii.
+---
+2012/06/19 02:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii.".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii.')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/index.php?r=gii.
+---
+2012/06/19 02:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii.".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii.')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/index.php?r=gii.
+---
+2012/06/19 02:48:00 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiemp (trying to connect via tcp://mysql9.000webhost.com:3306) (C:\wamp\www\yii\framework\db\CDbConnection.php:422)
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CWebApplication->__get()
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): ModelCode->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#11 C:\wamp\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ModelGenerator->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\final\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/index.php?r=gii/model
+in C:\wamp\www\final\index.php (13)
+2012/06/19 02:48:51 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiemp (trying to connect via tcp://mysql9.000webhost.com:3306) (C:\wamp\www\yii\framework\db\CDbConnection.php:422)
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CWebApplication->__get()
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): ModelCode->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#11 C:\wamp\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ModelGenerator->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\final\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/index.php?r=gii/model
+in C:\wamp\www\final\index.php (13)
+2012/06/19 02:51:56 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiemp (trying to connect via tcp://mysql9.000webhost.com:3306) (C:\wamp\www\yii\framework\db\CDbConnection.php:422)
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CWebApplication->__get()
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): ModelCode->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#11 C:\wamp\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ModelGenerator->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\final\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/index.php?r=gii/model
+in C:\wamp\www\final\index.php (13)
+2012/06/19 02:53:35 [error] [php] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiemp (trying to connect via tcp://mysql9.000webhost.com:3306) (C:\wamp\www\yii\framework\db\CDbConnection.php:422)
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#4 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(54): CWebApplication->__get()
+#5 C:\wamp\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(152): ModelCode->__construct()
+#7 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\wamp\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#11 C:\wamp\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ModelGenerator->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\final\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/index.php?r=gii/model
+in C:\wamp\www\final\index.php (13)
+2012/06/19 02:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "use".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('use')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/index.php?r=use
+---
