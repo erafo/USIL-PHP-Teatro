@@ -24,5 +24,6 @@ Historial de cambios:
 	24/06/2012 Recopilando informacion de la clase CHttpSession
 	24/06/2012 Generando modelo en Yii de tablas (obras y votos).
 	24/06/2012 Generando CRUD OBRAS
+	24/06/2012 Reconfiguracion de GitHub una vez mas :D
 	
 	
