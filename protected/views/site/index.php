@@ -1,6 +1,14 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<h1>Vote <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+
+<div id="gmenu">
+	<?php
+	foreach ($Generos as $Genero):?> 
+		<h6><?php echo CHtml::link($Genero->nombre, array('votaciones/browse/', 'id' => $Genero->generoId));?></h6>
+	<?php endforeach?>
+	
+</div>
 
 <p>Congratulations! You have successfully created your Yii application.</p>
 

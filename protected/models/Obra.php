@@ -14,9 +14,11 @@
  * @property string $precios
  * @property string $temporada
  * @property string $afiche
- * @property string $reseña
+ * @property string $resena
+ * @property integer $generoId
  *
  * The followings are the available model relations:
+ * @property Genero $genero
  * @property User[] $tblUsers
  */
 class Obra extends CActiveRecord
@@ -47,10 +49,11 @@ class Obra extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, autor, director, actores, salas, horarios, precios, temporada, afiche, reseña', 'required'),
+			array('nombre, autor, director, actores, salas, horarios, precios, temporada, afiche, resena, generoId', 'required'),
+			array('generoId', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('obraId, nombre, autor, director, actores, salas, horarios, precios, temporada, afiche, reseña', 'safe', 'on'=>'search'),
+			array('obraId, nombre, autor, director, actores, salas, horarios, precios, temporada, afiche, resena, generoId', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,6 +65,7 @@ class Obra extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'genero' => array(self::BELONGS_TO, 'Genero', 'generoId'),
 			'tblUsers' => array(self::MANY_MANY, 'User', 'tbl_voto(obraId, userId)'),
 		);
 	}
@@ -82,7 +86,8 @@ class Obra extends CActiveRecord
 			'precios' => 'Precios',
 			'temporada' => 'Temporada',
 			'afiche' => 'Afiche',
-			'reseña' => 'Reseña',
+			'resena' => 'Resena',
+			'generoId' => 'Genero',
 		);
 	}
 
@@ -107,7 +112,8 @@ class Obra extends CActiveRecord
 		$criteria->compare('precios',$this->precios,true);
 		$criteria->compare('temporada',$this->temporada,true);
 		$criteria->compare('afiche',$this->afiche,true);
-		$criteria->compare('reseña',$this->reseña,true);
+		$criteria->compare('resena',$this->resena,true);
+		$criteria->compare('generoId',$this->generoId);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
