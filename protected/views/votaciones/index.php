@@ -2,99 +2,60 @@
 $this->breadcrumbs=array(
 	'Votaciones',
 );?>
+<?php foreach($listaobras as $obra){ ?>
+<table>
+<tr>
+<td></td>
+<td><h1><?php echo $obra->nombre ?><h1></td>
+</tr>
+<tr>
+<td></td>
+<td><img src="<?php echo $obra->afiche ?>"</td>
+</tr>
+<tr>
+<td>Autor</td>
+<td><?php echo $obra->autor ?></td>
+</tr>
+<tr>
+<td>Director</td>
+<td><?php echo $obra->director ?></td>
+</tr>
+<tr>
+<td>Actores</td>
+<td><?php echo $obra->actores ?></td>
+</tr>
+<tr>
+<td>Salas</td>
+<td><?php echo $obra->salas ?></td>
+</tr>
+<tr>
+<td>Horarios</td>
+<td><?php echo $obra->horarios ?></td>
+</tr>
+<tr>
+<td>Precios</td>
+<td><?php echo $obra->precios ?></td>
+</tr>
+<tr>
+<td>Temporada</td>
+<td><?php echo $obra->temporada ?></td>
+</tr>
 
+<tr>
+<td>Resena</td>
+<td><?php echo $obra->resena ?></td>
+</tr>
+</table>
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=398003753579713";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-<?php echo $this->message;?>
-
-
-<?php if($_GET("id")){
-	foreach ($Generos as $Genero) {
-		echo '<h1>' . $Genero->Nombre . "</h1><br/>";
-		$desc = $Genero->Description;
-		
-	}
-?>
-	<div id="gmenu">
-		<?php echo $desc; ?>
-	</div>
-	<table>
-		<tr>
-			<?php 
-				$contarFilas=0;
-				foreach ($Obras as $Obra){
-					//$aid = $Obra->
-					$contarFilas++;
-					if ($contarFilas % 2) echo "</tr> <tr>";
-				
-				echo "<td><center>strong>" . $aname . "</strong>";
-				echo CHtml::link('<img src=" ' . Yii::app()->request->baseUrl . $Obra->ObraArtUrl . '" /><br/>', array('votaciones/details/','obra'=>$Obra->ObraId));
-				echo $Obra->Nombre . "<br/>" . $Obra->autor . "</center></td>";
-				}
-			?>
-			
-		</tr>
-	</table>
-<?php } 
-elseif ($_GET["obra"]) {
-	foreach ($Obras as $Obra) {
-		echo '<img serc=" ' . Yii::app()->request->baseUrl . $Obra->ObraArtUrl . '" /><br/>';
-		echo $Obra->Nombre . "<br/>";
-		echo $Obra->Autor . "<br/>";
-		echo CHtml::link('Add to cart', array('votaciones/cart', 'obra'=> $Obra->obraId()) . "<br/>");
-		
-	}
-}
-
-?>
+	<?php if(Yii::app()->user->id!=null) { ?>
+		<form name="input" action="html_form_action.asp" method="get">
+					<input type="submit" value="Gusta" />
+				<input type="submit" value="NoGusta" />
+		</form>		
+	<?php } else {?>
+		<p>Si desea botar por su obra preferida debe de estar registrado<p>
 	
-
-<?php if(Yii::app()->user->id==null) 
-	echo '<p>Hola no estas logueado, no podras votar por tu obra favorita</p>';
-else
-	echo '<p>Vota por tu obra favorita</p>';
-?>	
-</p>	
-<section>
-	<article>
-		<header><h3>Titulo obra</h3>
-				
-		</header>
-		<p>		Nombre: 	</br>
-				Autor: thomas spelg	</br>
-				Director: Steven Spilberg	</br>
-				Actores: erik	</br>
-				Salas: 3, 4 , 5	</br>
-				Horarios: 3:00 a 500 pm</br>
-				precio</br>
-				temporada</br>
-				afiche</br>
-				resena	</br>
-		</p>
-		<img src="../USIL-PHP-Teatro/images/obras/1.jpg" alt="Texto Alternativo"  class="alignright">
-	
-		<footer>
-			<form name="input" action="html_form_action.asp" method="get">
-				<?php 
-					if(Yii::app()->user->id!=null){ 	
-					echo '<input type="submit" value="Gusta" />';
-					echo '<input type="submit" value="NoGusta" />';
-					}
-				?>
-			</form>
-		</footer>
-	</article>
-	<div class="fb-comments" data-href="http://example.com" data-num-posts="1" data-width="470"></div>
-</section>
+	<?php } ?>
 
 
-
+<?php } ?>

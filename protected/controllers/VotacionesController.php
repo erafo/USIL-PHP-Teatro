@@ -14,32 +14,63 @@ class VotacionesController extends Controller
 	
 	public function actionBrowse()
 	{
+		
+		if($_GET["gid"]){
+			$genero = $_GET["gid"];
+			$listaobras = Obra::model()->findAll("generoId = " . $genero);
+			
+			echo "generoId = " . $genero;
+			$this->render('index', array ('listaobras'=>$listaobras));
+			
+	}		
+		
+		/*
+		
 		if ($_GET["id"]){
 			
-			$generoCriteria = new CDbCriteria();
-			$generoCriteria->select = "'generoId', 'nombre', 'descripcion'";
-		//	$generoCriteria->condition = "generoId = "  . $_GET("id");
+		//	$criteria= new CDbCriteria();
+		//	$criteria-> select = "*";
+		//	$criteria-> order = "Nombre ASC";
+		
+			$generoCriteria= new CDbCriteria();
+			$generoCriteria-> select = "*";
+			$generoCriteria-> condition = "'generoId' = " . $_GET["id"];
+			$generoCriteria-> order = "nombre ASC";
 			
 			$obraCriteria = new CDbCriteria();
 			$obraCriteria -> alias = "t2";
-			$obraCriteria->select = "'obraId', 'nombre', 'autor','director','actores','salas','horarios','precios','temporada','afiches','reseña','generoId'";
-		//	$generoCriteria->condition ="generoId= " . $_GET("id");
-			$generoCriteria->order = "'nombre' ASC";
+			$obraCriteria-> select = "*";
+			$obraCriteria-> condition = "'generoId' = " . $_GET["id"];
+			$obraCriteria-> order = "nombre ASC";
 			
 			$this->render('index',array('Obras'=> Obra::model()->findAll($obraCriteria),
 										'Generos'=> Genero::model()->findAll($generoCriteria)));
 		}else{
-			$this->message = 'Hola de Votaciones.Browse()';
+			$this->message = 'Hola de votaciones controller' ;
 			$this->render('index', array('content' => $this -> message ));
 		}
-		
-
+		*/
+	
 	}
 	
 	public function actionDetails()
 	{
-		$this->message = "Hola de Votaciones.Details()";
-		$this->render('index', array('content' => $this -> message ));
+		if($_GET["oId"]){
+			$obraCriteria = new CDbCriteria();
+			$obraCriteria->select = "*";
+			$obraCriteria->condition = "obraId = " . $_GET["oId"];
+			
+	//		$artistCriteria = new CDbCriteria();
+	//		$artistCriteria->select = "*";
+	//		$artistCriteria->condition = "ArtistId = " . $_GET["aid"];
+			
+			$this->render('index', array('Obras' => Obra::model()->findAll($obraCriteria)));
+		}
+		else{
+			$this->message = "Please select an album to view it's details";
+			$this->render('index', array('content'=>$this->message,));
+		}
+
 
 	}
 

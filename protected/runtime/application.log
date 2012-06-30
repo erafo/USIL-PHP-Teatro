@@ -1547,3 +1547,1722 @@ Stack trace:
 REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=obra/view&id=4
 HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=obra/create
 ---
+2012/06/29 23:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "artisr".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('artisr')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=artisr
+---
+2012/06/29 23:16:15 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gid=1".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('gid=1')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('gid=1')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/gid=...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/gid=1
+---
+2012/06/29 23:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gid=2".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('gid=2')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('gid=2')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/gid=...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/gid=2
+---
+2012/06/29 23:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id=2".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('id=2')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('id=2')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/id=2')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/id=2
+---
+2012/06/29 23:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gid=2".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('gid=2')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('gid=2')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/gid=...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/gid=2
+---
+2012/06/29 23:18:03 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:18:22 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:18:25 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=2
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:18:27 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:18:53 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:19:53 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:20:00 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:20:15 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:20:22 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:20:43 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:20:48 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:17)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (17)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:26:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id=3".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('id=3')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=id=3
+---
+2012/06/29 23:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/votaciones".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('view/votaciones')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=view/votaciones
+---
+2012/06/29 23:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "browsw".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('browsw')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browsw')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browsw
+---
+2012/06/29 23:28:00 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/29 23:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('1')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('1')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/1')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/1
+---
+2012/06/29 23:31:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "?gid=5".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('?gid=5')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('?gid=5')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/?gid...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/?gid=5
+---
+2012/06/29 23:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "?gid=5".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('?gid=5')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('?gid=5')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/?gid...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/?gid=5
+---
+2012/06/29 23:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gid=5".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('gid=5')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('gid=5')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/gid=...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/gid=5
+---
+2012/06/29 23:32:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "?gid=5".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('?gid=5')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('?gid=5')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/?gid...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/?gid=5
+---
+2012/06/29 23:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "?gid=5".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('?gid=5')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('?gid=5')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/?gid...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/?gid=5
+---
+2012/06/29 23:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "?gid=5".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('?gid=5')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('?gid=5')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/?gid...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/?gid=5
+---
+2012/06/29 23:54:58 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id=3".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('id=3')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('id=3')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/id=3')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/id=3
+---
+2012/06/30 00:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id=3".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('id=3')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=id=3
+---
+2012/06/30 00:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id=3".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('id=3')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('id=3')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/id=3')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/id=3
+---
+2012/06/30 00:18:47 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:18:55 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&?id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:19:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "?id=1".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('?id=1')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('?id=1')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/?id=...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/?id=1
+---
+2012/06/30 00:19:24 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse/id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:19:28 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse/?id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:20:04 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse/?id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:20:16 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&?id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:20:20 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&?id=2
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:21:38 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse/?id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:26:12 [error] [php] Undefined variable: obraCriteria (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:26:13 [error] [php] Undefined variable: obraCriteria (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:26:43 [error] [php] Undefined variable: generoCriteria (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:26:44 [error] [php] Undefined variable: generoCriteria (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:44 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:46 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:47 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:47 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:48 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:48 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:48 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:49 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:49 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:31)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (31)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY 'nombre' ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY 'nombre' ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (35)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:30:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY 'nombre' ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY 'nombre' ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(35): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:32:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (35)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:32:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(35): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:32:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (35)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:32:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(35): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:32:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (35)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:32:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(35): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:32:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (35)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:32:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_genero` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(35): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:33:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY Nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY Nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:33:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY Nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY Nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:33:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY Nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY Nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:33:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY Nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY Nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:33:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY Nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY Nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:33:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY Nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY Nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:33:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:33:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:33:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:33:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:33:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:33:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:33:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:33:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?r=
+---
+2012/06/30 00:34:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:34:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t2` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?
+---
+2012/06/30 00:34:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:34:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?
+---
+2012/06/30 00:34:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:34:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?
+---
+2012/06/30 00:34:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:34:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?
+---
+2012/06/30 00:34:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:34:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?
+---
+2012/06/30 00:34:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC.
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (34)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:34:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '` = 3 ORDER BY nombre ASC' at line 1. The SQL statement executed was: SELECT * FROM `tbl_obra` `t` WHERE generoId` = 3 ORDER BY nombre ASC' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/index.php?
+---
+2012/06/30 00:40:45 [error] [php] Object of class CDbCriteria could not be converted to string (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:29)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (29)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:40:48 [error] [php] Object of class CDbCriteria could not be converted to string (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:29)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (29)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:40:50 [error] [php] Object of class CDbCriteria could not be converted to string (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:29)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (29)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:41:30 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:41:32 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:44:06 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:44:07 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:44:08 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:44:19 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:44:20 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:44:21 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:44:22 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:46:07 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=2
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:46:12 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:48:54 [error] [php] Undefined variable: desc (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:25)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(36): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (25)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:51:23 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&?id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 00:51:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "?id=1".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('?id=1')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('?id=1')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/?id=...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/?id=1
+---
+2012/06/30 00:51:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id=1".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('id=1')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('id=1')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/id=1')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/id=1
+---
+2012/06/30 00:51:45 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:30:06 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:30:30 [error] [php] Undefined variable: albumCriteria (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:36)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (36)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:31:23 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:20)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (20)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:31:25 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:20)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (20)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:31:28 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:31:32 [error] [php] Undefined index: id (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:20)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (20)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:31:47 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:39:18 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:39:22 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:39:34 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:44:31 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:51:57 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:52:30 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:52:46 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:52:51 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:54:43 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:54:48 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 01:57:57 [error] [php] Undefined variable: Generos (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:21)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (21)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:01:16 [error] [php] Undefined variable: Obra (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:42)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (42)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:03:27 [error] [php] Undefined variable: Obra (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:42)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (42)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:03:28 [error] [php] Undefined variable: Obra (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:42)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (42)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:03:29 [error] [php] Undefined variable: Obra (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:42)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (42)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:03:30 [error] [php] Undefined variable: Obra (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:42)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (42)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:10:41 [error] [php] Undefined index: gid (C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php:18)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&id=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (18)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:11:30 [error] [php] Undefined variable: aname (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:51)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (51)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:15:53 [error] [php] Undefined index: oId (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (52)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:18:09 [error] [php] Undefined index: oId (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (52)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:20:00 [error] [php] Undefined index: oId (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (52)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:20:04 [error] [php] Undefined index: oId (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=2
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (52)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 02:20:35 [error] [php] Undefined index: oId (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(37): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (52)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (37)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 03:20:34 [error] [php] Undefined index: oId (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(38): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=3
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (52)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (38)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 03:57:33 [error] [exception.CException] exception 'CException' with message 'VotacionesController cannot find the requested view "browse".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('browse', Array, true)
+#1 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(23): CController->render('browse', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('browse')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('votaciones/brow...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=3
+HTTP_REFERER=http://localhost/final/USIL-PHP-Teatro/
+---
+2012/06/30 03:57:49 [error] [php] Undefined variable: obra (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:10)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(23): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionBrowse()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones/browse&gid=1
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (10)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (23)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
+2012/06/30 04:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "obras".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('obras')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=obras
+---
+2012/06/30 04:48:27 [error] [php] Undefined variable: listaobras (C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php:8)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): VotacionesController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): VotacionesController->renderPartial()
+#2 C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php(12): VotacionesController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): VotacionesController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): VotacionesController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): VotacionesController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): VotacionesController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\final\USIL-PHP-Teatro\index.php(13): CWebApplication->run()
+REQUEST_URI=/final/USIL-PHP-Teatro/index.php?r=votaciones
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\views\votaciones\index.php (8)
+in C:\wamp\www\final\USIL-PHP-Teatro\protected\controllers\VotacionesController.php (12)
+in C:\wamp\www\final\USIL-PHP-Teatro\index.php (13)
