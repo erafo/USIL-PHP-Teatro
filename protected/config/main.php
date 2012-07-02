@@ -16,7 +16,9 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		
 	),
+	
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
@@ -26,7 +28,9 @@ return array(
 			'password'=>'password',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-		),
+					),
+					
+					
 		
 	),
 
@@ -37,7 +41,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
+		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -46,7 +50,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
+		
 		
 		/*
 		'db'=>array(
@@ -62,6 +66,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+			'tablePrefix'=>'tbl_'
 		),
 		
 		'errorHandler'=>array(
@@ -91,4 +96,5 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+
 );

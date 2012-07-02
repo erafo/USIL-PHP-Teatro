@@ -4,9 +4,14 @@
  * This is the model class for table "tbl_voto".
  *
  * The followings are the available columns in table 'tbl_voto':
- * @property integer $obraId
+ * @property integer $votoId
+ * @property integer $puntuacion
  * @property integer $userId
- * @property integer $puntaje
+ * @property integer $obraId
+ *
+ * The followings are the available model relations:
+ * @property Obra $obra
+ * @property User $user
  */
 class Voto extends CActiveRecord
 {
@@ -36,11 +41,11 @@ class Voto extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('obraId, userId, puntaje', 'required'),
-			array('obraId, userId, puntaje', 'numerical', 'integerOnly'=>true),
+			array('puntuacion, userId, obraId', 'required'),
+			array('puntuacion, userId, obraId', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('obraId, userId, puntaje', 'safe', 'on'=>'search'),
+			array('votoId, puntuacion, userId, obraId', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,6 +57,8 @@ class Voto extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'obra' => array(self::BELONGS_TO, 'Obra', 'obraId'),
+			'user' => array(self::BELONGS_TO, 'User', 'userId'),
 		);
 	}
 
@@ -61,9 +68,10 @@ class Voto extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'obraId' => 'Obra',
+			'votoId' => 'Voto',
+			'puntuacion' => 'Puntuacion',
 			'userId' => 'User',
-			'puntaje' => 'Puntaje',
+			'obraId' => 'Obra',
 		);
 	}
 
@@ -78,9 +86,10 @@ class Voto extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('obraId',$this->obraId);
+		$criteria->compare('votoId',$this->votoId);
+		$criteria->compare('puntuacion',$this->puntuacion);
 		$criteria->compare('userId',$this->userId);
-		$criteria->compare('puntaje',$this->puntaje);
+		$criteria->compare('obraId',$this->obraId);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

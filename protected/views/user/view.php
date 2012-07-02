@@ -5,15 +5,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List user', 'url'=>array('index')),
-	array('label'=>'Create user', 'url'=>array('create')),
-	array('label'=>'Update user', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete user', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage user', 'url'=>array('admin')),
+	array('label'=>'List User', 'url'=>array('index')),
+	array('label'=>'Create User', 'url'=>array('create')),
+	array('label'=>'Update User', 'url'=>array('update', 'id'=>$model->id)),
+	array('label'=>'Delete User', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Manage User', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View user #<?php echo $model->id; ?></h1>
+<h1>View User #<?php echo $model->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -21,6 +21,8 @@ $this->menu=array(
 		'id',
 		'username',
 		'password',
-		'email',
+		'nombre',
+		'apellido',
+		'profile',
 	),
 )); ?>

@@ -8,71 +8,85 @@ class VotacionesController extends Controller
 	{
 	//	$message = Obra::model()->findByPk(1);
 	//	$this->message= $message->nombre;
-		$this->message = "Hola de Votaciones.Index()";
-		$this->render('index', array('content' => $this -> message ));
+	//	$this->message = "Hola de Votaciones.Index()";
+	//	$this->render('index', array('content' => $this -> message ));
+		echo "hola";
 	}
 	
 	public function actionBrowse()
 	{
 		
 		if($_GET["gid"]){
+		
 			$genero = $_GET["gid"];
 			$listaobras = Obra::model()->findAll("generoId = " . $genero);
+			$listavotos = Voto::model()->findAll();
+			$listausuarios = User::model()->findAll();
+			$this->render('index', array ('listaobras'=>$listaobras,'listavotos'=>$listavotos,'listausuarios'=>$listausuarios));
 			
-			echo "generoId = " . $genero;
-			$this->render('index', array ('listaobras'=>$listaobras));
+			//if($_GET["obra"]!=null)
+			//{
+			//$voto->new Voto;
+			//$voto->puntuacion=5;
+			//$voto->userId=Yii::app()->user->id;
+			//$voto->obraId=$_GET["obra"];
+			//$voto->save();
+			//}
 			
-	}		
-		
-		/*
-		
-		if ($_GET["id"]){
-			
-		//	$criteria= new CDbCriteria();
-		//	$criteria-> select = "*";
-		//	$criteria-> order = "Nombre ASC";
-		
-			$generoCriteria= new CDbCriteria();
-			$generoCriteria-> select = "*";
-			$generoCriteria-> condition = "'generoId' = " . $_GET["id"];
-			$generoCriteria-> order = "nombre ASC";
-			
-			$obraCriteria = new CDbCriteria();
-			$obraCriteria -> alias = "t2";
-			$obraCriteria-> select = "*";
-			$obraCriteria-> condition = "'generoId' = " . $_GET["id"];
-			$obraCriteria-> order = "nombre ASC";
-			
-			$this->render('index',array('Obras'=> Obra::model()->findAll($obraCriteria),
-										'Generos'=> Genero::model()->findAll($generoCriteria)));
-		}else{
-			$this->message = 'Hola de votaciones controller' ;
-			$this->render('index', array('content' => $this -> message ));
-		}
-		*/
-	
+		}		
+	 //echo CHtml::link("like", array('like'));
 	}
 	
-	public function actionDetails()
+	public function actionLike()
 	{
-		if($_GET["oId"]){
-			$obraCriteria = new CDbCriteria();
-			$obraCriteria->select = "*";
-			$obraCriteria->condition = "obraId = " . $_GET["oId"];
+	
+		if($_GET["obra"]){
+			$voto = new Voto;
+			$voto->puntuacion=5;
+			$voto->userId=Yii::app()->user->id;;
+			$voto->obraId=$_GET["obra"];
+			$voto->save();
 			
-	//		$artistCriteria = new CDbCriteria();
-	//		$artistCriteria->select = "*";
-	//		$artistCriteria->condition = "ArtistId = " . $_GET["aid"];
 			
-			$this->render('index', array('Obras' => Obra::model()->findAll($obraCriteria)));
+			$genero = $_GET["gid"];
+			$listaobras = Obra::model()->findAll("generoId = " . $genero);
+			$listavotos = Voto::model()->findAll();
+			$listausuarios = User::model()->findAll();
+			$this->render('index', array ('listaobras'=>$listaobras,'listavotos'=>$listavotos,'listausuarios'=>$listausuarios));
+			
 		}
-		else{
-			$this->message = "Please select an album to view it's details";
-			$this->render('index', array('content'=>$this->message,));
+			
+		
+	
+	}
+	public function actionNotlike()
+	{
+	if($_GET["obra"]){
+			$voto = new Voto;
+			$voto->puntuacion=-3;
+			$voto->userId=Yii::app()->user->id;;
+			$voto->obraId=$_GET["obra"];
+			$voto->save();
+			
+			
+			$genero = $_GET["gid"];
+			$listaobras = Obra::model()->findAll("generoId = " . $genero);
+			$listavotos = Voto::model()->findAll();
+			$listausuarios = User::model()->findAll();
+			$this->render('index', array ('listaobras'=>$listaobras,'listavotos'=>$listavotos,'listausuarios'=>$listausuarios));
+			
 		}
-
+		
+		
+		
+		
+		
 
 	}
+//	public function missingAction($actionID)
+//{
+ //   echo "jajaj";
+//}
 
 	// Uncomment the following methods and override them if needed
 	/*

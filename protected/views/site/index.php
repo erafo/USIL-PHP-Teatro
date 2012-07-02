@@ -1,6 +1,6 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
 
-<h1>Vote <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<h1>Bienvenidos a su Portal de Teatro preferido</h1>
 
 <div id="gmenu">
 	<?php

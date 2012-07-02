@@ -1,8 +1,22 @@
 <?php
+
 $this->breadcrumbs=array(
 	'Votaciones',
 );?>
-<?php foreach($listaobras as $obra){ ?>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=398003753579713";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<?php 
+if (Yii::app()->user->id==null)
+echo "Usted esta visitando esta pagina como visitante, si desea Votar por su obra favorita debe " . '<a href="http://localhost/final/USIL-PHP-Teatro/index.php/site/login">Logearse</a>' ;
+foreach($listaobras as $obra){ 
+?>
+<hr>
 <table>
 <tr>
 <td></td>
@@ -10,7 +24,7 @@ $this->breadcrumbs=array(
 </tr>
 <tr>
 <td></td>
-<td><img src="<?php echo $obra->afiche ?>"</td>
+<td><img src="<?php echo $obra->afiche ?>"></td>
 </tr>
 <tr>
 <td>Autor</td>
@@ -47,15 +61,39 @@ $this->breadcrumbs=array(
 </tr>
 </table>
 
-	<?php if(Yii::app()->user->id!=null) { ?>
-		<form name="input" action="html_form_action.asp" method="get">
-					<input type="submit" value="Gusta" />
-				<input type="submit" value="NoGusta" />
-		</form>		
-	<?php } else {?>
-		<p>Si desea botar por su obra preferida debe de estar registrado<p>
-	
-	<?php } ?>
 
+
+<?php 
+$sumaparcial=0;
+$sumatotal=0; 
+if (Yii::app()->user->id!=null)
+{
+	foreach($listavotos as $votos){
+		if ($votos->obraId == $obra->obraId){
+		$sumatotal=$votos->puntuacion+$sumatotal; 
+			if ($votos->userId == Yii::app()->user->id){
+			$sumaparcial=$votos->puntuacion+$sumaparcial; 
+				}
+				
+			}
+	}
+	
+	if ($sumaparcial!=0){
+		$sumatotal=$votos->puntuacion+$sumatotal; 
+		echo "!!!!Gracias por Votar !!!!";
+		}else{
+		echo CHtml::link(CHtml::image("http://img341.imageshack.us/img341/8245/likev.png", "imagen de like"), array('like', 'gid' => $_GET["gid"], 'obra' =>$obra->obraId));
+		echo CHtml::link(CHtml::image("http://img822.imageshack.us/img822/5628/dislikev.png", "imagen de like"), array('notlike', 'gid' => $_GET["gid"], 'obra' =>$obra->obraId));
+		
+		}
+}
+
+
+
+?>
 
 <?php } ?>
+<br>
+<div class="fb-comments" data-href="http://example.com" data-num-posts="1" data-width="470"></div>
+<br>
+

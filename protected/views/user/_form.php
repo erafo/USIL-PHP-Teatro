@@ -22,9 +22,21 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'email'); ?>
+		<?php echo $form->labelEx($model,'Nombre'); ?>
+		<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->error($model,'nombre'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'Apellido'); ?>
+		<?php echo $form->textField($model,'apellido',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->error($model,'apellido'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'profile'); ?>
+		<?php echo $form->textArea($model,'profile',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'profile'); ?>
 	</div>
 
 	<div class="row buttons">

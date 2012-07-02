@@ -11,7 +11,7 @@ Recursos:
 Framework :
 	Yii
 
-Historial de cambios:
+Historial de cambios:	<br/>
 	24/06/2012 Configuracion de GitHub () 					<br/>
 	24/06/2012 Creacion de app YII							<br/>
 	24/06/2012 Habilitado gii								<br/>
@@ -23,11 +23,15 @@ Historial de cambios:
 	24/06/2012 Recopilando informacion de la clase CHttpSession						<br/>
 	24/06/2012 Generando modelo en Yii de tablas (obras y generos).					<br/>
 	28/06/2012 Reconfiguracion de GitHub una vez mas :D error al subir cambios		<br/>
+	29/06/2012 Caracter problematico como nombre de tabla (causa problemas ñ)		<br/>
 	29/06/2012 Generando index.html para Obras										<br/>
 	29/06/2012 Organizando informacion de Obras 									<br/>
 	30/06/2012 Haciendo inserts de Prueba											<br/>
 	30/06/2012 Convirtiendo todo el contenido a DINAMICO							<br/>
 	30/06/2012 Seteando imagenes con links :D										<br/>
 	30/06/2012 Agregado plugin comments facebook									<br/>
-	30/06/2012 Generando 															<br/>
+	30/06/2012 Generando modelo en Yii de tablas (votos).							<br/>
+	30/06/2012 Relacion en tablas problematico (yii no admite llave primaria compuesta)	<br/>
+	
+	HOSTINH 01/06/2012 http://developer.host56.com/final/
 	

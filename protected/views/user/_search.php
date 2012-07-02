@@ -16,8 +16,18 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'email'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->label($model,'nombre'); ?>
+		<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>128)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'apellido'); ?>
+		<?php echo $form->textField($model,'apellido',array('size'=>60,'maxlength'=>128)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'profile'); ?>
+		<?php echo $form->textArea($model,'profile',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row buttons">

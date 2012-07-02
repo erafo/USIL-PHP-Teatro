@@ -38,7 +38,7 @@ class UserController extends Controller
 				'actions'=>array('admin','delete'),
 				'users'=>array('admin'),
 			),
-			array('deny',  // deny all users
+			array('allow',  // deny all users
 				'users'=>array('*'),
 			),
 		);
@@ -61,16 +61,17 @@ class UserController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new user;
+		$model=new User;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['user']))
+		if(isset($_POST['User']))
 		{
-			$model->attributes=$_POST['user'];
+			$model->attributes=$_POST['User'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(Yii::app()->user->returnUrl);
+				
 		}
 
 		$this->render('create',array(
@@ -90,9 +91,9 @@ class UserController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['user']))
+		if(isset($_POST['User']))
 		{
-			$model->attributes=$_POST['user'];
+			$model->attributes=$_POST['User'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -127,7 +128,7 @@ class UserController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('user');
+		$dataProvider=new CActiveDataProvider('User');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -138,10 +139,10 @@ class UserController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new user('search');
+		$model=new User('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['user']))
-			$model->attributes=$_GET['user'];
+		if(isset($_GET['User']))
+			$model->attributes=$_GET['User'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -155,7 +156,7 @@ class UserController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=user::model()->findByPk($id);
+		$model=User::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;

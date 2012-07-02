@@ -2,9 +2,24 @@
 
 class SiteController extends Controller
 {
+	public $layout='column1';
+
 	/**
 	 * Declares class-based actions.
 	 */
+	 	public function actionIndex()
+	{
+		$Criteria = new CDbCriteria();
+		$Criteria->select = "*";
+		$Criteria->order = "nombre ASC";
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('index', array('Generos' => Genero::model()->findAll($Criteria),
+		));
+	}
+	 
+	 
+	 
 	public function actions()
 	{
 		return array(
@@ -19,21 +34,6 @@ class SiteController extends Controller
 				'class'=>'CViewAction',
 			),
 		);
-	}
-
-	/**
-	 * This is the default 'index' action that is invoked
-	 * when an action is not explicitly requested by users.
-	 */
-	public function actionIndex()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$criteria= new CDbCriteria();
-		$criteria-> select = "*";
-		$criteria-> order = "Nombre ASC";
-		
-		$this->render('index', array('Generos'=>genero::model()->findAll($criteria)));
 	}
 
 	/**
@@ -92,6 +92,15 @@ class SiteController extends Controller
 			if($model->validate() && $model->login())
 				$this->redirect(Yii::app()->user->returnUrl);
 		}
+		
+		if(isset($_POST['LoginForm']))
+		{
+			$model->attributes=$_POST['LoginForm'];
+			// validate user input and redirect to the previous page if valid
+			if($model->validate() && $model->login())
+				$this->redirect(Yii::app()->user->returnUrl);
+		}
+		
 		// display the login form
 		$this->render('login',array('model'=>$model));
 	}
